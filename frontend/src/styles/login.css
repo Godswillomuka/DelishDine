@@ -1,58 +1,69 @@
 /* src/styles/login.css */
 
+/* General styling for login page */
 .login-page {
-    max-width: 400px;
-    margin: auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    background-color: #f9f9f9;
-  }
-  
-  .login-page h2 {
-    text-align: center;
-  }
-  
-  .login-page form {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .login-page label {
-    margin: 8px 0;
-  }
-  
-  .login-page input {
-    padding: 8px;
-    margin: 8px 0;
-    border-radius: 4px;
-    border: 1px solid #ccc;
-  }
-  
-  .login-page button {
-    padding: 10px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .login-page button:hover {
-    background-color: #45a049;
-  }
-  
-  /* src/styles/user.css */
-  
-  .user-page {
-    max-width: 600px;
-    margin: auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    background-color: #f9f9f9;
-  }
-  
-  .user-page h2 {
-    text-align: center;
-  }
-  
+  max-width: 450px;
+  margin: 50px auto;
+  padding: 30px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+.login-page h2 {
+  text-align: center;
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Form container */
+.login-page form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Label styling */
+.login-page label {
+  font-size: 16px;
+  color: #333;
+}
+
+/* Input fields */
+.login-page input {
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.login-page input:focus {
+  border-color: #4CAF50; /* Green border on focus */
+}
+
+/* Button styling */
+.login-page button {
+  padding: 12px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.login-page button:hover {
+  background-color: #45a049;
+  transform: translateY(-2px); /* Slight lift on hover */
+}
+
+.login-page button:active {
+  transform: translateY(0); /* Reset on click */
+}
+

@@ -9,12 +9,12 @@ class Config:
 class DevelopmentConfig(Config):
     """Development environment settings."""
     DEBUG = True
-    SQLALCHEMY_DATABASE_URI = "sqlite:///foodiegoodies.db"
+    SQLALCHEMY_DATABASE_URI = "sqlite:///DelishDine.db"
 
 class ProductionConfig(Config):
     """Production environment settings."""
     DEBUG = False
-    SQLALCHEMY_DATABASE_URI = os.getenv("DATABASE_URL", "sqlite:///foodiegoodies.db")  # Use a real database in production
+    SQLALCHEMY_DATABASE_URI = os.getenv("DATABASE_URL", "sqlite:///DelishDine.db")  # Use a real database in production
 
 # Dictionary to select the config
 config_dict = {

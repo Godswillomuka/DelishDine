@@ -4,7 +4,7 @@ import "../styles/Navbar.css";
 function Navbar() {
   return (
     <nav className="navbar">
-      <h1>Foodie Goodies</h1>
+      <h1>DashDine</h1>
       <ul>
         <li><Link to="/">Home</Link></li>
         <li><Link to="/food-items">Food Items</Link></li>

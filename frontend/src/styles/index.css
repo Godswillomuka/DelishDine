@@ -1,12 +1,55 @@
 /* src/styles/index.css */
+
+/* Body Styling */
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f8f8f8;
-  }
-  
-  h1, h2, h3 {
-    color: #333;
-  }
-  
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern system font */
+  background-color: #f4f7fa; /* Light gray background for a clean, fresh look */
+  color: #333; /* Dark text color for readability */
+  line-height: 1.6; /* Improve readability with better line spacing */
+  box-sizing: border-box; /* Ensure padding and borders don't affect element width/height */
+}
+
+/* Global Heading Styles */
+h1, h2, h3 {
+  color: #333; /* Consistent color for headings */
+  font-family: 'Arial', sans-serif; /* Clean font for headings */
+  text-align: center; /* Center align headings for uniformity */
+  margin-bottom: 15px; /* Add space below headings */
+  font-weight: bold; /* Bold font for better emphasis */
+}
+
+/* Specific Styles for h1 */
+h1 {
+  font-size: 32px; /* Large font size for main title */
+  margin-top: 30px; /* Add space above h1 */
+  color: #007BFF; /* Vibrant color for the main title */
+}
+
+/* Specific Styles for h2 */
+h2 {
+  font-size: 24px; /* Medium font size for section titles */
+  margin-bottom: 10px; /* Slightly smaller space below */
+  color: #555; /* Slightly lighter color for section titles */
+}
+
+/* Specific Styles for h3 */
+h3 {
+  font-size: 18px; /* Smaller font size for subheadings */
+  margin-bottom: 8px; /* Less space for subheadings */
+  color: #666; /* Lighter color for less emphasis */
+}
+
+/* Paragraph Styling */
+p {
+  font-size: 16px; /* Standard font size for text */
+  color: #555; /* Lighter text color for readability */
+  margin-bottom: 20px; /* Add space below paragraphs */
+  line-height: 1.6; /* Improved line spacing for text */
+}
+
+/* Add some default padding for the page */
+.container {
+  padding: 20px;
+}

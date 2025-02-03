@@ -1,3 +1,7 @@
+Delishdine
+
+
+Date: 2024/12/20 By:God'swill Omuka
 
 DelishDine
 DelishDine is an app that allows users to easily order food by selecting the type of food they want, providing a description, and choosing a URL for the restaurant or food service. It offers a simple and user-friendly interface for browsing and ordering food online.
