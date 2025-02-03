@@ -1,0 +1,17 @@
+.navbar {
+    background: #ff7f50;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+  }
+  .navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
